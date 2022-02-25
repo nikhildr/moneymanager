@@ -1,0 +1,34 @@
+{
+  "100": [
+    {
+      "productId": "100",
+      "productName": "Humar resouce",
+      "appId": "WFNPortal",
+      "productDesc": "human resources",
+      "serviceUIPos": "18",
+      "serviceUICol": "1"
+    },
+    {
+      "productId": "101",
+      "productName": "Core HR",
+      "appId": "WFNPortal",
+      "productDesc": "Core HR",
+      "parentProdId": "130",
+      "serviceUIPos": "18",
+      "serviceUILevl": "1",
+      "serviceUICol": "1",
+      "childProducts": [
+        {
+          "productId": "101",
+          "productName": "Core HR",
+          "appId": "WFNPortal",
+          "productDesc": "Core HR",
+          "parentProdId": "130",
+          "serviceUIPos": "18",
+          "serviceUILevl": "1",
+          "serviceUICol": "1"
+        }
+      ]
+    }
+  ]
+}
